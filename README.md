@@ -1,7 +1,7 @@
-# hotel-resource-collection-service
+# Hotel-Resource-Collection-Service
 ## Prerequisites
- * Run the my-hotel-service project available at https://github.com/NandaBalakrishnan/my-hotel-service.git in the same machine where this project to be deployed or deploy it anywhere and configure the url host in appliction.proprties
- * Run the hotel-resource-collection-service project available at https://github.com/NandaBalakrishnan/hotel-resource-collection-service.git  in the same machine where this project to be deployed or deploy it anywhere and configure the url host in appliction.proprties
+ * Run the hotel-service project available at https://github.com/Nanda021294/Hotel-Service.git in the same machine where this project to be deployed or deploy it anywhere and configure the url host in appliction.proprties
+ * Run the Hotel-Resource-Collection-Service project available at https://github.com/Nanda021294/Hotel-Resource-Collection-Service.git  in the same machine where this project to be deployed or deploy it anywhere and configure the url host in appliction.proprties
  * Zookeeper setup in on premise
     * Default Zookeeper port in zoo.cfg file (Default port 2181).
     * Run Zookeeper by opening a new cmd and type zkserver, Zookeeper is up and running on port 2181!
@@ -27,7 +27,7 @@
    * run the logstash by using the cmd .\bin\logstash -f .\config\logstash-sample.conf
     
 ## Deployment Instructions    
-1) Replace the credentials of my-hotel-service in the application.properties file
+1) Replace the credentials of hotel-service in the application.properties file
 2) Configure the KAFKA bootstrap-servers,consumer-group-id and kafka topic in application properties
 3) Configure server port in application properties.
 4) From command prompt navigate to the folder where the pom.xml file located
